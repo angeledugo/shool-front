@@ -1,0 +1,15 @@
+
+<nav class="bg-gray-800">
+    <div class="container mx-auto px-4">
+      <div class="flex items-center justify-between h-16">
+        <div class="flex items-center">
+          <a href="#" class="text-white text-xl font-bold">School app</a>
+        </div>
+        <div class="flex">
+          <a  [routerLink]="['/alumnos']" class="text-gray-300 hover:text-white px-3 py-2">Alumnos</a>
+          <a [routerLink]="['/teachers']" class="text-gray-300 hover:text-white px-3 py-2">Teachers</a>
+          <a [routerLink]="['/notas']" class="text-gray-300 hover:text-white px-3 py-2">Notas</a>
+        </div>
+      </div>
+    </div>
+  </nav>
